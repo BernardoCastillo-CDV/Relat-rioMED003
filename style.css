@@ -1,0 +1,165 @@
+.p, p {
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+    margin:0pt;
+        }
+
+h2 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 8pt;
+    }
+    
+.s1 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    }
+
+h1 {
+    color: black;
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18pt;
+    padding-left: 8pt;
+    text-indent: 0pt;
+    }
+h4 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+.s2 {
+    padding-left: 15px;
+    color: #339;
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20pt;
+}
+.s3 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 8pt;
+}
+.s4 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 8pt;
+}
+h3 {
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9.5pt;
+}
+.s5 {
+    color: #404259;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 8pt;
+}
+.s6 {
+    color: black;
+    font-family:"Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+}
+.s7 {
+    color: #74779A;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+}
+li {
+   display: block;
+}
+#l1 {
+   padding-left: 0pt;
+}
+#l1> li>*:first-child:before {
+   content: "- ";
+    color: black;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+}
+table, tbody {
+   vertical-align: top;
+    overflow: visible;
+}
+.header{
+    padding: 2%;
+}
+.borda{
+    background-image: rgb(177, 235, 194);
+    
+}
+.legenda{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.linha{
+    background-color: #339;
+    padding-top: 6px;
+
+}
+
+.MED{
+    padding-left: 15px;
+    color: #339;
+    font-family:"Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17pt;
+}
+.introducao{
+    color: black;
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15pt;
+    padding-top: 4pt;
+    padding-left: 13pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.cdv{
+    padding-right: 5%;
+    margin-left: 15px;
+}
