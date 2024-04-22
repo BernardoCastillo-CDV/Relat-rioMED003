@@ -30,7 +30,7 @@ h1 {
     color: black;
     font-family:Verdana, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
     font-size: 18pt;
     padding-left: 8pt;
@@ -130,6 +130,7 @@ table, tbody {
 .legenda{
     font-size: medium;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 .linha{
@@ -155,11 +156,48 @@ table, tbody {
     text-decoration: none;
     font-size: 15pt;
     padding-top: 4pt;
-    padding-left: 13pt;
+    padding-left: 30px;
     text-indent: 0pt;
     text-align: left;
 }
 .cdv{
     padding-right: 5%;
     margin-left: 15px;
+}
+.consideracao{
+    padding-top: 8pt;
+    padding-left: 6pt;
+    text-indent: 0pt;
+    text-align: left;
+    font-size: medium;
+    
+}
+
+.apresentacao{
+    color: black;
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 24pt;
+    padding-left: 10pt;
+    text-indent: 0pt;
+
+}
+
+.azul{
+    color: #339;
+    font-family:Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+
+}
+.margem{
+    padding-left: 30px;
+}
+
+.margem2{
+    padding-left: 25px;
 }

@@ -16,5 +16,6 @@ async def generate_pdf(url, pdf_path):
     
     await browser.close()
 
-# Run the function
+# Arrumar path do file
+
 asyncio.get_event_loop().run_until_complete(generate_pdf('file:///C:/Users/bernardo.castillo/Documents/Projetos%20CDV/Relatorio.html', 'RelatorioPDF.pdf'))

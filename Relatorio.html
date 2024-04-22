@@ -68,101 +68,127 @@
     </div>
     <br>
     </p>
-    <h1>Considerações Gerais</h1>
-    <p style="padding-top: 6pt;text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
-    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Os eventos denominados &quot;Prévia de Medição&quot; (AAAA_MM - MS+0X PRÉVIA DE MEDIÇÃO) são apurados com base em dados e informações preliminares que poderão sofrer alterações até o processamento e certificação da Contabilização.</p>
-    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">É de responsabilidade exclusiva dos agentes a utilização desses dados para realização de análises, estudos e avaliações para fins de tomada de decisões, definição de estratégias de atuação, assunção de compromissos e obrigações e quaisquer outras
-        finalidades, em qualquer tempo e sob qualquer condição.</p>
-    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">A CCEE é isenta de toda e quaisquer responsabilidades relacionadas à diferença dos dados contidos na Prévia de Medição e no processamento e certificação da Contabilização.</p>
+    <div class="margem">
+        <h1 class="apresentacao"> Apresentação dos Dados de Medição</h1>
+        <p style="padding-top: 4pt;text-indent: 0pt;text-align: left;">
+            <br/>
+        </p>
+        <div class="margem2">
+            <div class="consideracao">O Relatório MED003 apresenta os dados de geração e consumo do agente gerador; este relatório  apresenta os dados do agente "agente".</div>
+            <ul id="l1">
+                <li data-list-text="-">
+                    <div class="consideracao">O <span class="azul"> Quadro 1</span> apresenta os valores da Geração Total do Agente (TGG-MWh) e do Consumo de Geração Total do Agente(TGGC-MWh) divididos pelas semanas do mês representado.</div>
+                </li>
+                <li data-list-text="-">
+                    <div class="consideracao">O <span class="azul"> Quadro 2</span> apresenta os valores da Medição Líquida de Geração (ML_G-MWh), das Perdas de Geração (PERDAS_G-MWh),da Geração Final (G-MWh), da Medição de Consumo de Geração da Usina não Ajustada (MED_CG-MWh), das Perdas de Consumo da Geração (PERDAS_CG-MWh) e do Consumo da Geração Final (CGF-MWh) divididos pelas semanas do mês representado.</div>
+                </li>
+            </ul>
+            <p style="padding-top: 6pt;text-indent: 0pt;text-align: left;">
+                <br/>
+            </p>
+        </div>    
+        <h1 class="apresentacao">Considerações Gerais CCEE</h1>
+            <div class="margem2">
+                <p style="padding-top: 6pt;text-indent: 0pt;text-align: left;">
+                    <br/>
+                </p>
+                <p class="consideracao">Os eventos denominados &quot;Prévia de Medição&quot; (AAAA_MM - MS+0X PRÉVIA DE MEDIÇÃO) são apurados com base em dados e informações preliminares que poderão sofrer alterações até o processamento e certificação da Contabilização.</p>
+                <p class="consideracao">É de responsabilidade exclusiva dos agentes a utilização desses dados para realização de análises, estudos e avaliações para fins de tomada de decisões, definição de estratégias de atuação, assunção de compromissos e obrigações e quaisquer outras
+                    finalidades, em qualquer tempo e sob qualquer condição.</p>
+                <p class="consideracao">A CCEE é isenta de toda e quaisquer responsabilidades relacionadas à diferença dos dados contidos na Prévia de Medição e no processamento e certificação da Contabilização.</p>
 
-    <ul id="l1">
-        <li data-list-text="-">
-            <p style="padding-left: 11pt;text-indent: -5pt;text-align: left;">Este Painel possui 3 quadros, a ausência de qualquer um deles sinaliza a não existência de dados para os filtros selecionados.</p>
-        </li>
-        <li data-list-text="-">
-            <p style="padding-left: 13pt;text-indent: -5pt;text-align: left;">Aplicar o primeiro conjunto de filtros antes do segundo.</p>
-        </li>
-        <li data-list-text="-">
-            <p style="padding-left: 13pt;text-indent: -5pt;text-align: left;">A Parcela da Carga depende do Perfil do Agente selecionado.</p>
-        </li>
-        <li data-list-text="-">
-            <p style="padding-left: 13pt;text-indent: -5pt;text-align: left;">Filtros sinalizados com * são obrigatórios.</p>
-        </li>
-        <li data-list-text="-">
-            <p style="padding-left: 13pt;text-indent: -5pt;text-align: left;">Filtros em branco (nenhum) retornam todos os itens do filtro.</p>
-        </li>
-    </ul>
-    <p style="text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
-    <p style="padding-left: 8pt;text-indent: 0pt;text-align: left;">Os quadros 4 e 5 do relatório somente serão exibidos nos eventos de Prévia de Medição.</p>
-    <p style="text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
-    <h4 style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Legenda:</h4>
-    <p style="text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 text-center text-sm-left">  
-            <h4 class="legenda">CGF p,j <span class="p">= Consumo da Geração Final</span></h4>
-            <h4 class="legenda">GFT p,j <span class="p">= Geração Final de Teste</span></h4>
-            <h4 class="legenda">G p,j <span class="p">= Geração Final</span></h4>
-            <h4 class="legenda">MBU p,j <span class="p">= Medição Bruta da Usina em Operação Comercial</span></h4>
-            <h4 class="legenda">MED_C c,j <span class="p">= Medição de Consumo não Ajustado da Carga</span></h4>
-            <h4 class="legenda">MED_CG p,j <span class="p">= Medição de Consumo de Geração da Usina não Ajustada </span>
-            <h4 class="legenda">MED_GD p,j <span class="p">= Medição de Geração Desconsiderada não Ajustada </span>
-            <h4 class="legenda">MED_G p,j <span class="p">= Medição de Geração não Ajustada</span></h4>
-            <h4 class="legenda">MED_GT p,j <span class="p">= Medição de Geração de Teste não Ajustada</span></h4>
-            <h4 class="legenda">MER_CS p,j <span class="p">= Energia Reativa das Usinas que prestam Serviços Ancilares</span></h4>
-            <h4 class="legenda">ML_G i,j <span class="p">= Medição Líquida de Geração </span>
+                <ul id="l1">
+                    <li data-list-text="-">
+                        <p class="consideracao">Este Painel possui 3 quadros, a ausência de qualquer um deles sinaliza a não existência de dados para os filtros selecionados.</p>
+                    </li>
+                    <li data-list-text="-">
+                        <p class="consideracao">Aplicar o primeiro conjunto de filtros antes do segundo.</p>
+                    </li>
+                    <li data-list-text="-">
+                        <p class="consideracao">A Parcela da Carga depende do Perfil do Agente selecionado.</p>
+                    </li>
+                    <li data-list-text="-">
+                        <p class="consideracao">Filtros sinalizados com * são obrigatórios.</p>
+                    </li>
+                    <li data-list-text="-">
+                        <p class="consideracao">Filtros em branco (nenhum) retornam todos os itens do filtro.</p>
+                    </li>
+                </ul>
+                <p style="text-indent: 0pt;text-align: left;">
+                    <br/>
+                </p>
+                <p style="padding-left: 8pt;text-indent: 0pt;text-align: left;">Os quadros 4 e 5 do relatório somente serão exibidos nos eventos de Prévia de Medição.</p>
+                <p style="text-indent: 0pt;text-align: left;">
+                    <br/>
+                </p>
             </div>
-            <div class="col-sm-6 text-center text-sm-left">  
-            <h4 class="legenda">PDI_MED p,j <span class="p">= Perda Interna Medida </span>
-            <h4 class="legenda">PERDAS_C c,j <span class="p">= Perdas de Consumo</span></h4>
-            <h4 class="legenda">PERDAS_CG p,j <span class="p">= Perdas de Consumo da Geração</span></h4>
-            <h4 class="legenda">PERDAS_G p,j <span class="p">= Perdas de Geração </span>
-            <h4 class="legenda">PERDAS_GT p,j <span class="p">= Perdas de Geração de Teste </span>
-            <h4 class="legenda">RC c,j <span class="p">= Consumo Reconciliado da Carga</span></h4>
-            <h4 class="legenda">TGG a,s,j <span class="p">= Geração Total do Agente</span></h4>
-            <h4 class="legenda">TGGC a,s,j <span class="p">= Consumo de Geração Total do Agente</span></h4>
-            <h4 class="legenda">TRC_CAT_CL a,s,j <span class="p">= Total de Consumo Cativo do Consumidor Livre</span></h4>
-            <h4 class="legenda">TRC_CAT_D_G a,s,j <span class="p">= Total de Consumo Cativo Associado ao Distribuidor ou Gerador</span></h4>
-            <h4 class="legenda">TRC a,s,j <span class="p">= Consumo Total do Agente</span></h4>
+        <h4 style="padding-left: 20px;text-indent: 0pt;text-align: left;">Legenda:</h4>
+        <p style="text-indent: 0pt;text-align: left;">
+            <br/>
+        </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 text-center text-sm-left">  
+                <h4 class="legenda">CGF p,j <span class="p">= Consumo da Geração Final</span></h4>
+                <h4 class="legenda">GFT p,j <span class="p">= Geração Final de Teste</span></h4>
+                <h4 class="legenda">G p,j <span class="p">= Geração Final</span></h4>
+                <h4 class="legenda">MBU p,j <span class="p">= Medição Bruta da Usina em Operação Comercial</span></h4>
+                <h4 class="legenda">MED_C c,j <span class="p">= Medição de Consumo não Ajustado da Carga</span></h4>
+                <h4 class="legenda">MED_CG p,j <span class="p">= Medição de Consumo de Geração da Usina não Ajustada </span>
+                <h4 class="legenda">MED_GD p,j <span class="p">= Medição de Geração Desconsiderada não Ajustada </span>
+                <h4 class="legenda">MED_G p,j <span class="p">= Medição de Geração não Ajustada</span></h4>
+                <h4 class="legenda">MED_GT p,j <span class="p">= Medição de Geração de Teste não Ajustada</span></h4>
+                <h4 class="legenda">MER_CS p,j <span class="p">= Energia Reativa das Usinas que prestam Serviços Ancilares</span></h4>
+                <h4 class="legenda">ML_G i,j <span class="p">= Medição Líquida de Geração </span>
+                </div>
+                <div class="col-sm-6 text-center text-sm-left">  
+                <h4 class="legenda">PDI_MED p,j <span class="p">= Perda Interna Medida </span>
+                <h4 class="legenda">PERDAS_C c,j <span class="p">= Perdas de Consumo</span></h4>
+                <h4 class="legenda">PERDAS_CG p,j <span class="p">= Perdas de Consumo da Geração</span></h4>
+                <h4 class="legenda">PERDAS_G p,j <span class="p">= Perdas de Geração </span>
+                <h4 class="legenda">PERDAS_GT p,j <span class="p">= Perdas de Geração de Teste </span>
+                <h4 class="legenda">RC c,j <span class="p">= Consumo Reconciliado da Carga</span></h4>
+                <h4 class="legenda">TGG a,s,j <span class="p">= Geração Total do Agente</span></h4>
+                <h4 class="legenda">TGGC a,s,j <span class="p">= Consumo de Geração Total do Agente</span></h4>
+                <h4 class="legenda">TRC_CAT_CL a,s,j <span class="p">= Total de Consumo Cativo do Consumidor Livre</span></h4>
+                <h4 class="legenda">TRC_CAT_D_G a,s,j <span class="p">= Total de Consumo Cativo Associado ao Distribuidor ou Gerador</span></h4>
+                <h4 class="legenda">TRC a,s,j <span class="p">= Consumo Total do Agente</span></h4>
+                </div>
             </div>
-        </div>
-    </div>    
-    <p style="padding-top: 6pt;text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
-    <p class="s2">Quadro 1 - MED003</p>
-    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 2pt;text-align: left;" />
-    <p style="padding-top: 5pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">Agente: VENTOS DE SANTO ABELARDO CNPJ do Agente: 23037514000117</p>
-    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Evento: 2024_03 - MEMÓRIA CÁLCULO GARANTIA FINANCEIRA</p>
-    <p style="text-indent: 0pt;text-align: left;">
-        <br/>
-    </p>
+        </div>    
+        <p style="padding-top: 6pt;text-indent: 0pt;text-align: left;">
+            <br/>
+        </p>
+        <p class="s2">Quadro 1 - MED003</p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 2pt;text-align: left;" >
+        <div class="margem2">   
+            <p style="padding-top: 5pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">Agente: VENTOS DE SANTO ABELARDO CNPJ do Agente: 23037514000117</p>
+            <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Evento: 2024_03 - MEMÓRIA CÁLCULO GARANTIA FINANCEIRA</p>
+            <p style="text-indent: 0pt;text-align: left;">
+                <br/>
+            </p>
+        </div>    
+            </table>
+                <p style="padding-top: 8pt;text-indent: 0pt;text-align: left;">
+        
+        </p>
+        <table style="border-collapse:collapse;margin-left:6pt" cellspacing="0">
+
         </table>
-             <p style="padding-top: 8pt;text-indent: 0pt;text-align: left;">
-     
+        <p style="text-indent: 0pt;text-align: left;">
+        
+                            <p class="s2" >Quadro 2 - MED003</p>
+                        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 2pt;text-align: left;" >
+                    <div class="margem2">       
+                        <p style="padding-top: 5pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">Agente: VENTOS DE SANTO ABELARDO CNPJ do Agente: 23037514000117</p>
+                        <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Evento: 2024_03 - MEMÓRIA CÁLCULO GARANTIA FINANCEIRA</p>
+                        <p style="text-indent: 0pt;text-align: left;">
+                            <br/>
+                        </p>
+                    </div>   
+                        </table>
     </p>
-    <table style="border-collapse:collapse;margin-left:6pt" cellspacing="0">
-
-    </table>
-    <p style="text-indent: 0pt;text-align: left;">
-    
-                           <p class="s2" >Quadro 2 - MED003</p>
-                    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 2pt;text-align: left;" />
-                    <p style="padding-top: 5pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">Agente: VENTOS DE SANTO ABELARDO CNPJ do Agente: 23037514000117</p>
-                    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">Evento: 2024_03 - MEMÓRIA CÁLCULO GARANTIA FINANCEIRA</p>
-                    <p style="text-indent: 0pt;text-align: left;">
-                        <br/>
-                    </p>
-                    
-                    </table>
+    </div>                    
 </body>
 
 </html>
